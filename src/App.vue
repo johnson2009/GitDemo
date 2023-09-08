@@ -1,4 +1,12 @@
-<script setup lang="ts">
+<template>
+  <div>
+    <router-link to="/">首页</router-link>
+    <router-link to="/about">关于</router-link>
+  </div>
+  <router-view></router-view>
+</template>
+
+<!-- <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -27,4 +35,4 @@ import HelloWorld from './components/HelloWorld.vue'
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
-</style>
+</style> -->
